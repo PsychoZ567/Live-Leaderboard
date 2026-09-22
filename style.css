@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap');
+
+body {
+  font-family: 'Fredoka', cursive, sans-serif;
+  background-color: #fdf6ec;
+  margin: 0;
+  padding: 20px;
+}
+
+.leaderboard-title {
+  text-align: center;
+  font-size: 42px;
+  color: #5c3d2e;
+  margin: 20px 0 30px 0;
+  font-weight: 700;
+}
+
+#leaderboard {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 16px 16px;
+  margin: 12px 0;
+  border-radius: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.class-tag {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.stats-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cookies-pill {
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.rank-blue .cookies-pill {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.money-pill {
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.rank-gold {
+  background-color: #ffd700;
+  color: #3d2b00;
+}
+.rank-gold .money-pill {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.rank-silver {
+  background-color: #e0e0e0;
+  color: #222222;
+}
+.rank-silver .money-pill {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.rank-bronze {
+  background-color: #e59866;
+  color: #3a1700;
+}
+.rank-bronze .money-pill {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.rank-blue {
+  background-color: #3d66e4;
+  color: #ffffff;
+}
+.rank-blue .money-pill {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.tab-btn {
+  font-family: 'Fredoka', cursive, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e0d0c0;
+  color: #5c3d2e;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-btn:hover {
+  transform: translateY(-2px);
+}
+
+.tab-btn.active {
+  background-color: #5c3d2e;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(92, 61, 46, 0.3);
+}
